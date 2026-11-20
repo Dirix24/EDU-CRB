@@ -29,6 +29,14 @@ En **Settings → Pages**, elige **Deploy from a branch** y selecciona `main` y 
 
 [Vista publicada](https://dirix24.github.io/EDU-CRB/) · [Repositorio EDU-CRB](https://github.com/Dirix24/EDU-CRB)
 
-## Estado, contribuciones y licencia
+## Estado y contribuciones
 
-EDU-CRB y Cerebro son proyectos experimentales. Puedes informar de errores o proponer mejoras mediante una incidencia o un pull request. Los repositorios son públicos. En las revisiones consultadas no figura un archivo de licencia y queda pendiente explicitar las condiciones de reutilización.
+EDU-CRB y Cerebro son proyectos experimentales. Puedes informar de errores o proponer mejoras mediante una incidencia o un pull request.
+
+## Licencia
+
+**EDU-CRB** se distribuye bajo la [licencia MIT](LICENSE). Copyright (c) 2026 Dirix24.
+
+Esta licencia permite usar, modificar y distribuir el código, incluso comercialmente, siempre que se mantengan los avisos de copyright y licencia correspondientes.
+
+La licencia de EDU-CRB **no se extiende automáticamente** al repositorio independiente [Cerebro](https://github.com/Dirix24/cerebro). Consulta ese repositorio para conocer sus condiciones de uso.
