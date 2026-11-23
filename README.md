@@ -13,6 +13,8 @@ EDU-CRB es un laboratorio educativo en español que explica cómo un modelo de l
 
 La inferencia y el entrenamiento lineal se ejecutan en el navegador. El diagrama animado esquematiza el flujo de información. El mapa de embeddings usa vectores ilustrativos. La preferencia de tema y el progreso se guardan en el navegador cuando hay almacenamiento local disponible.
 
+Abre **Idioma / Language** en la cabecera para traducir la página a uno de los idiomas disponibles en Google Translate. La traducción automática requiere Internet. El modelo del laboratorio sigue usando el corpus con el que fue entrenado.
+
 ## Ejecutar localmente
 
 La web usa HTML, CSS, JavaScript y SVG. Abre `index.html` o sirve el repositorio desde su raíz.

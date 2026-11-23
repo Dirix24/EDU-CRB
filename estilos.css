@@ -106,6 +106,13 @@ main > section {margin-block: clamp(3rem, 8vw, 7rem)}
 .brand {font-weight: 800; letter-spacing: .08em; color: var(--ink)}
 .brand span {color: var(--blue)}
 .nav-links a {color: var(--mut)}
+.language-menu {position: relative}
+.language-menu summary {display: flex; align-items: center; gap: .4rem; min-height: 44px; padding: .35rem .75rem; border: 1px solid var(--line); border-radius: 999px; cursor: pointer; font-size: .875rem; font-weight: 650}
+.language-menu summary::-webkit-details-marker {display: none}
+.language-menu summary:hover {border-color: var(--blue)}
+.language-panel {position: absolute; z-index: 3; inset-inline-end: 0; top: calc(100% + .5rem); width: min(16rem, calc(100vw - 2rem)); padding: .8rem; border: 1px solid var(--line); border-radius: .75rem; background: var(--card); box-shadow: 0 .5rem 1.5rem #0003; font-size: .875rem}
+.language-panel select {max-width: 100%; margin-bottom: .4rem; font: inherit}
+.language-panel .note:not(:empty) {margin: 0 0 .4rem}
 .hero {display: grid; grid-template-columns: 1.05fr 1fr; gap: clamp(1rem, 4vw, 3.5rem); align-items: center}
 h1 {font-size: clamp(3rem, 7vw, 6rem); line-height: .99; letter-spacing: -.07em; text-shadow: none; margin-bottom: 1.35rem}
 h1 em {display: block; color: var(--violet); font-style: normal}
@@ -178,6 +185,7 @@ footer {border-top: 1px solid var(--line); padding-top: 1rem}
 }
 @media(max-width: 32rem) {
   .nav-links {order: 3; width: 100%}
+  .language-panel {position: static; margin-top: .5rem}
   .pr {grid-template-columns: minmax(48px, 1fr) 2fr 48px}
   #q {min-width: 0}
 }
